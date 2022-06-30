@@ -36,9 +36,10 @@ module.exports = {
         // },
 
         // For hosts (please adjust)
+
         remotes: {
-            "users": "http://localhost:4300/remoteEntry.js",
-            "products": "http://localhost:4400/remoteEntry.js",
+            "users": "https://master.d25aoc3iurwcgz.amplifyapp.com/remoteEntry.js",
+            "products": "https://master.d5qezk1nep8i4.amplifyapp.com/remoteEntry.js",
         },
 
         shared: share({
