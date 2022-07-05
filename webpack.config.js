@@ -11,7 +11,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "concepts",
-    publicPath: "auto"
+    publicPath: "/remoteEntry.js"
   },
   optimization: {
     runtimeChunk: false
